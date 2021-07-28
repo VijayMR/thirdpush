@@ -28,6 +28,8 @@ public class Singleton {
 		Singleton q = getInsatnce();
 		q.add();
 		System.out.println(System.identityHashCode(q));
+		System.out.println("no changes made to the code 1");
+		System.out.println("Dont worry");
 		
 	}
 
